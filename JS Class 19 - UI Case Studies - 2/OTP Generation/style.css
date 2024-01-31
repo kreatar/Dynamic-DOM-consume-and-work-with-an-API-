@@ -1,0 +1,32 @@
+body {
+  background-color: #e5989b;
+  background-image: url(https://images.pexels.com/photos/7130555/pexels-photo-7130555.jpeg?cs=srgb&dl=pexels-codioful-%28formerly-gradienta%29-7130555.jpg&fm=jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30vh;
+}
+
+.input input {
+  background-color: bisque;
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 6rem;
+  color: black;
+}
+
+.input {
+  display: flex;
+  gap: 20px;
+}
+
+.enterOTP {
+  font-size: 50px;
+}
